@@ -15,14 +15,14 @@
 .main-container,
 .logo{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row ;
 }
 
 .logo{
     height: auto;
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
-    top: 20vh;
+    top: 17vh;
     gap: 1vw;
     padding: 15px 0;
 
@@ -31,7 +31,7 @@
 }
 
 .logo > img {
-    height: 20vh;
+    height: 17vh;
 }
 
 h1{
@@ -45,4 +45,52 @@ h1{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.right-side{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.dummy-text{
+height: 38vh;
+background: rgb(237, 248, 229);
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 0 80px 0 30px;
+gap: 10px;
+}
+
+.dummy-text > p{
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.form-sct{
+height: 24vh;
+}
+
+.subscribe-sct{
+height: 38vh;
+background: rgb(237, 248, 229);
+display: flex;
+flex-direction: column;
+padding: 30px 80px 0 30px;
+gap: 20px;
+}
+
+.subscribe-sct > p{
+    font-size: 18px;
+}
+
+.submit-btn{
+    width: 180px;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    color: azure;
+    background-color: rgb(32, 105, 32);
 }
