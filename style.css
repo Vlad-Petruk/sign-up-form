@@ -1,0 +1,48 @@
+:root{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: inherit;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-container,
+.logo{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.logo{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.logo > img {
+    height: 20vh;
+}
+
+h1{
+    color: white;
+    font-size: 7vh;
+}
+
+.left-side{
+    width: 40vw;
+    background-image: url(bg-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
