@@ -70,6 +70,9 @@ gap: 10px;
 
 .form-sct{
 height: 24vh;
+border: 2px solid transparent; /* Ensure there's some border width */
+ box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 100;
 }
 
 .subscribe-sct{
@@ -94,3 +97,34 @@ gap: 20px;
     color: azure;
     background-color: rgb(32, 105, 32);
 }
+
+
+#form{
+    display: flex;
+    gap: 10vw;
+    padding: 20px 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.left-form,
+.right-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 140%;
+    border-color: #E5E7EB;
+}
+
+/* input:valid{
+    border-color: green;
+}
+
+input:invalid{
+    border-color: red;
+} */
